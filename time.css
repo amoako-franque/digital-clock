@@ -1,0 +1,26 @@
+/* body{
+	background: rgb(62, 161, 207);
+} */
+
+.clock{
+	/* 
+	text-align: center;
+	margin: 25px;
+	color: orange;
+  font-family: Victor Mono; */
+
+  position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    height:auto;
+    font-size: 1.3em;
+  
+
+}
+
+.clock span{
+	padding: 10px;
+  background: rgba(221, 250, 117, 0.534);
+}
